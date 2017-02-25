@@ -51,10 +51,14 @@ from the window-type-selector available on the window headers.
 
 ---- MISSING INFO
 
-The report is a complete lack of any information.
-Please follow the bug report guidelines and fill in all the requested information.
-This isn't a support system, but a bug tracker,
-so it's important you include all the steps needed to reproduce the issue so we can investigate it.
+Please follow our submission template and guidelines and make a complete, valid bug report,
+with required info, precise description of the issue, precise steps to reproduce it,
+small and simple .blend and/or other files to do so if needed, etc.
+     
+A guideline for making a good bug report can be found here:
+https://wiki.blender.org/index.php/Dev:Doc/Process/Bug_Reports
+     
+Marking as Incomplete until the requested information/data is provided.
 
 ---- NOT A BUG REPORT
 
@@ -115,3 +119,7 @@ Please:
 * Try to tweak your GPU driver settings (e.g. try different values between 'performance' and 'quality' if you have such slider, etc.).
 * Launch Blender from the command line with `-d` option and **attach as text file** here any error printed out in the console (**do not** paste it directly in comment).
 * Try to place [this dll](http://download.blender.org/ftp/sergey/softwaregl/win64/opengl32.dll) next to your blender.exe (software OGL, will be slow, but will show whether this is a driver issue or not).
+
+---- ALREADY FIXED
+
+This is a known issue, and the good news is: fixed already! if you need the fix urgently you can grab a build from http://builder.blender.org otherwise this fix will be included in the next official update.
