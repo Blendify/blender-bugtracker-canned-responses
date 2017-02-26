@@ -92,8 +92,7 @@ Could you see if this is causing the problem?
 Its highly likely that this bug is specific to your hardware/driver configuration.
 These kinds of display issues are often caused by OpenGL driver bugs.
 
-While its possible a software error in Blender,
-its worth checking if this functions correctly...
+While its possible a software error in Blender, its worth checking if this functions correctly...
 
 - After upgrading graphics card drivers.
 - On a different system (with different hardware/drivers).
@@ -101,8 +100,7 @@ its worth checking if this functions correctly...
   - On Linux, Official releases come with `blender-softwaregl`
   - On MS-Windows: Downloading 'opengl32.dll' from [[ http://download.blender.org/ftp/sergey/softwaregl | download.blender.org/ftp/sergey/softwaregl ]] and copying it so its located in the same directory as 'blender.exe'
 
-If this is a driver bug, or we can't link to this to an error in Blender's code,
-the report may be closed as a driver error,
+If this is a driver bug, or we can't link to this to an error in Blender's code, the report may be closed as a driver error,
 so please help us determine whether this is a bug in Blender or not.
 
 
