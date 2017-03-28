@@ -121,3 +121,8 @@ Please:
 ---- ALREADY FIXED
 
 This is a known issue, and the good news is: fixed already! if you need the fix urgently you can grab a build from http://builder.blender.org otherwise this fix will be included in the next official update.
+
+---- INCOMPLETE WITHOUT REPLY
+
+Since last asking for information it has been 7 days since, due to the policy of our bug tracker
+we will have to archive the report until the requested information is given.
