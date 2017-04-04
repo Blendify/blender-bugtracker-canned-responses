@@ -24,8 +24,8 @@ Closing.
 
 ---- FEATURE REQUEST
 
-This is for report bugs and not feature requests. While we love to here these ideas this is not the right place for them.
-Please use on of the other forms of communication listed below:
+This is for bug reports and not feature requests. While we love to here these ideas this is not the right place for them.
+Please use one of the other forms of communication listed below:
 
 - https://rightclickselect.com/
 - Fun board mailing list: https://lists.blender.org/mailman/listinfo/bf-funboard
