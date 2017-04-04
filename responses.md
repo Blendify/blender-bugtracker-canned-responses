@@ -22,6 +22,14 @@ please give exact steps to redo the error.
 
 Closing.
 
+---- FEATURE REQUEST
+
+This is for report bugs and not feature requests. While we love to here these ideas this is not the right place for them.
+Please use on of the other forms of comunication listed below:
+
+- https://rightclickselect.com/
+- Fun board mailing list: https://lists.blender.org/mailman/listinfo/bf-funboard
+
 ---- INVALID MESH
 
 This mesh is corrupt, so the bug is that you managed to make a corrupt mesh in the first place.
