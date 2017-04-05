@@ -17,8 +17,7 @@ For general issues, check on support sites such as:
 - http://blender.stackexchange.com
 - https://blenderartists.org/forum/forumdisplay.php?7-Support
 
-If you still think you have found a bug,
-please give exact steps to redo the error.
+If you still think you have found a bug, please give exact steps to redo the error.
 
 Closing.
 
@@ -38,11 +37,12 @@ Can you re-create this mesh from scratch (or at least by some operations on a va
 
 To check for invalid mesh data, run this Python snippet:
 
-    import bpy
-    bpy.context.object.data.validate(True)
+```
+import bpy
+bpy.context.object.data.validate(True)
+```
 
 Check terminal, for the output.
-
 
 ---- USERPREF WINDOW FAILS TO OPEN
 
@@ -66,7 +66,7 @@ small and simple .blend and/or other files to do so if needed, etc.
 A guideline for making a good bug report can be found here:
 https://wiki.blender.org/index.php/Dev:Doc/Process/Bug_Reports
      
-Marking as Incomplete until the requested information/data is provided.
+Marking as "Incomplete" until the requested information/data is provided.
 
 ---- NOT A BUG REPORT
 
@@ -74,14 +74,13 @@ If you find an error in Blender you need to report exactly what fails and how to
 
 However this is not a bug report we can handle usefully.
 
-closing.
+Closing.
 
 ---- SELECTION FSAA
 
-There are known problems with some graphics cards when using Multisampling,
-also called FSAA or Fullscreen Anti-Aliasing,
+There are known problems with some graphics cards when using Multisampling, also called FSAA or Fullscreen Anti-Aliasing.
 
-This is a Blender preference you can disable:
+This can be disabled in the User Preferences:
 
   User Preferences -> System -> Window Draw Method -> (Set to 'No Multi-Sample')
 
@@ -128,7 +127,7 @@ Please:
 
 ---- ALREADY FIXED
 
-This is a known issue, and the good news is: fixed already! if you need the fix urgently you can grab a build from http://builder.blender.org otherwise this fix will be included in the next official update.
+This is a known issue, and the good news is: it is fixed already! if you need the fix urgently you can grab a build from http://builder.blender.org otherwise this fix will be included in the next official update.
 
 ---- INCOMPLETE WITHOUT REPLY
 
