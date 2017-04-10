@@ -68,6 +68,10 @@ https://wiki.blender.org/index.php/Dev:Doc/Process/Bug_Reports
      
 Marking as "Incomplete" until the requested information/data is provided.
 
+---- MISSING BLEND-FILE
+
+Thanks for the report but it would be helpful if you add a blend-file to the report that demostrates the issue at hand.
+
 ---- NOT A BUG REPORT
 
 If you find an error in Blender you need to report exactly what fails and how to redo the bug.
