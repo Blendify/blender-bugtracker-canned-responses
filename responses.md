@@ -62,10 +62,10 @@ from the window-type-selector available on the window headers.
 Please follow our submission template and guidelines and make a complete, valid bug report,
 with required info, precise description of the issue, precise steps to reproduce it,
 small and simple .blend and/or other files to do so if needed, etc.
-     
+
 A guideline for making a good bug report can be found here:
 https://wiki.blender.org/index.php/Dev:Doc/Process/Bug_Reports
-     
+
 Marking as "Incomplete" until the requested information/data is provided.
 
 ---- MISSING BLEND-FILE
