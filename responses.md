@@ -23,8 +23,10 @@ Closing.
 
 ---- FEATURE REQUEST
 
-This is for bug reports and not feature requests. While we love to here these ideas this is not the right place for them.
-Please use one of the other forms of communication listed below:
+Hi, while we love to hear these ideas, this is not the right place for them.
+This website is mainly used to track bug reports and not feature requests.
+But luckly, there are some other nice solutions you can take,
+so please use one of the other forms of communication listed below:
 
 - https://rightclickselect.com/
 - Fun board mailing list: https://lists.blender.org/mailman/listinfo/bf-funboard
