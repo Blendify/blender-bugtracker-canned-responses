@@ -40,7 +40,6 @@ Can you re-create this mesh from scratch (or at least by some operations on a va
 To check for invalid mesh data, run this Python snippet:
 
 ```
-import bpy
 bpy.context.object.data.validate(True)
 ```
 
