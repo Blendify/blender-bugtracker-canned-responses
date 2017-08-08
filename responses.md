@@ -138,3 +138,7 @@ This is a known issue, and the good news is: it is fixed already! if you need th
 
 Since last asking for information it has been 7 or more days, due to the policy of our bug tracker
 we will have to archive the report until the requested information is given.
+
+---- UNSUPPORTED GCN
+
+We only support graphics cards with GCN architecture 2.0 and above). To make sure your GPU is supported checkout this [[ https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units | Wikipedia page. ]]
