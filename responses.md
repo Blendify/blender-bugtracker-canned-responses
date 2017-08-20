@@ -110,7 +110,7 @@ While its possible a software error in Blender, its worth checking if this funct
 - On a different system (with different hardware/drivers).
 - Using a Software OpenGL renderer...
   - On Linux/macOS, Official releases come with `blender-softwaregl`
-  - On MS-Windows: Downloading 'opengl32.dll' from [[ http://download.blender.org/ftp/sergey/softwaregl | download.blender.org/ftp/sergey/softwaregl ]] and copying it so its located in the same directory as 'blender.exe'
+  - On MS-Windows: Download [this dll](http://download.blender.org/ftp/sergey/softwaregl/win64/opengl32.dll) and copying it so its located in the same directory as 'blender.exe' and run Blender normally.
 
 If this is a driver bug, or we can't link to this to an error in Blender's code, the report may be closed as a driver error,
 so please help us determine whether this is a bug in Blender or not.
@@ -128,7 +128,9 @@ Please:
 * Try to start Blender in factory settings (`--factory-startup` commandline option) (this will ensure whether this is a userpref or addon issue or not).
 * Try to tweak your GPU driver settings (e.g. try different values between 'performance' and 'quality' if you have such slider, etc.).
 * Launch Blender from the command line with `-d` option and **attach as text file** here any error printed out in the console (**do not** paste it directly in comment).
-* Try to place [this dll](http://download.blender.org/ftp/sergey/softwaregl/win64/opengl32.dll) next to your blender.exe (software OGL, will be slow, but will show whether this is a driver issue or not).
+* Try to run Blender through Software OpenGL, this will be much slower however, if everything works then it means that the bug is spefic for your GPU/Driver and you should report the bug to your GPU vendor instead.
+  * On Linux/macOS, Official releases come with `blender-softwaregl`
+  * On MS-Windows: Download [this dll](http://download.blender.org/ftp/sergey/softwaregl/win64/opengl32.dll) and copying it so its located in the same directory as 'blender.exe' and run Blender normally.
 
 ---- ALREADY FIXED
 
