@@ -109,7 +109,7 @@ While its possible a software error in Blender, its worth checking if this funct
 - After upgrading graphics card drivers.
 - On a different system (with different hardware/drivers).
 - Using a Software OpenGL renderer...
-  - On Linux, Official releases come with `blender-softwaregl`
+  - On Linux/macOS, Official releases come with `blender-softwaregl`
   - On MS-Windows: Downloading 'opengl32.dll' from [[ http://download.blender.org/ftp/sergey/softwaregl | download.blender.org/ftp/sergey/softwaregl ]] and copying it so its located in the same directory as 'blender.exe'
 
 If this is a driver bug, or we can't link to this to an error in Blender's code, the report may be closed as a driver error,
