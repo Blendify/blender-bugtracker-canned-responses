@@ -144,3 +144,9 @@ we will have to archive the report until the requested information is given.
 ---- UNSUPPORTED GCN
 
 We only support graphics cards with GCN architecture 2.0 and above). To make sure your GPU is supported checkout this [[ https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units | Wikipedia page. ]]
+
+---- 2.8 BUG REPORT
+
+Thank you for the report. Currently we are aware of many issues in 2.8 and actively working to fix them.
+But since replying to reports takes time, we have decided to limit bug reports to [[ https://wiki.blender.org/index.php/Dev:Doc/Process/Module_Owners/List | module team ]] members.
+
