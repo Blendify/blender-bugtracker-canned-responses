@@ -1,6 +1,10 @@
 Bugtracker Replies
 ------------------
 
+---- NOT OUR ADDON
+
+Thanks for the report, but this add-on is not developed by Blender, please report the bug to the original author.
+
 ---- DESIGN ISSUE
 
 While its disputable how this should work,
