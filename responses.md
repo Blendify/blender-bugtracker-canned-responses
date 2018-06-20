@@ -18,8 +18,8 @@ This is a general support issue and not a software error we can investigate.
 
 For general issues, check on support sites such as:
 
-- http://blender.stackexchange.com
-- https://blenderartists.org/forum/forumdisplay.php?7-Support
+- https://blender.stackexchange.com
+- https://blenderartists.org/c/support
 
 If you still think you have found a bug, please give exact steps to redo the error.
 
@@ -69,7 +69,7 @@ with required info, precise description of the issue, precise steps to reproduce
 small and simple .blend and/or other files to do so if needed, etc.
 
 A guideline for making a good bug report can be found here:
-https://wiki.blender.org/index.php/Dev:Doc/Process/Bug_Reports
+https://wiki.blender.org/wiki/Process/Bug_Reports
 
 Marking as "Incomplete" until the requested information/data is provided.
 
@@ -138,7 +138,7 @@ Please:
 
 ---- ALREADY FIXED
 
-This is a known issue, and the good news is: it is fixed already! if you need the fix urgently you can grab a build from http://builder.blender.org otherwise this fix will be included in the next official update.
+This is a known issue, and the good news is: it is fixed already! if you need the fix urgently you can grab a build from https://builder.blender.org/download otherwise this fix will be included in the next official update.
 
 ---- INCOMPLETE WITHOUT REPLY
 
@@ -152,5 +152,5 @@ We only support graphics cards with GCN architecture 2.0 and above). To make sur
 ---- 2.8 BUG REPORT
 
 Thank you for the report. Currently we are aware of many issues in 2.8 and actively working to fix them.
-But since replying to reports takes time, we have decided to limit bug reports to [[ https://wiki.blender.org/index.php/Dev:Doc/Process/Module_Owners/List | module team ]] members.
+But since replying to reports takes time, we have decided to limit bug reports to [[ https://wiki.blender.org/wiki/Process/Module_Owners/List | module team ]] members.
 
