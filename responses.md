@@ -152,5 +152,5 @@ We only support graphics cards with GCN architecture 2.0 and above). To make sur
 ---- 2.8 BUG REPORT
 
 Thank you for the report. Currently we are aware of many issues in 2.8 and actively working to fix them.
-But since replying to reports takes time, we have decided to limit bug reports to [[ https://wiki.blender.org/wiki/Process/Module_Owners/List | module team ]] members.
+But since replying to reports takes time, we have decided to limit bug reports to crashing bugs only at this point in time.
 
