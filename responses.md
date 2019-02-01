@@ -114,7 +114,7 @@ While its possible a software error in Blender, its worth checking if this funct
 - On a different system (with different hardware/drivers).
 - Using a Software OpenGL renderer...
   - On Linux/macOS, Official releases come with `blender-softwaregl`
-  - On MS-Windows: Download [[ http://download.blender.org/ftp/sergey/softwaregl/win64/opengl32.dll | this dll ]] and copying it so its located in the same directory as 'blender.exe' and run Blender normally.
+  - On MS-Windows: Download [[ https://download.blender.org/opengl/software-emulation/windows64/opengl32.dll | this dll ]] and copying it so its located in the same directory as 'blender.exe' and run Blender normally.
 
 If this is a driver bug, or we can't link to this to an error in Blender's code, the report may be closed as a driver error,
 so please help us determine whether this is a bug in Blender or not.
@@ -134,7 +134,7 @@ Please:
 * Launch Blender from the command line with `-d` option and **attach as text file** here any error printed out in the console (**do not** paste it directly in comment).
 * Try to run Blender through Software OpenGL, this will be much slower however, if everything works then it means that the bug is spefic for your GPU/Driver and you should report the bug to your GPU vendor instead.
   * On Linux/macOS, Official releases come with `blender-softwaregl`
-  * On MS-Windows: Download [[ http://download.blender.org/ftp/sergey/softwaregl/win64/opengl32.dll | this dll ]] and copying it so its located in the same directory as 'blender.exe' and run Blender normally.
+  * On MS-Windows: Download [[ https://download.blender.org/opengl/software-emulation/windows64/opengl32.dll | this dll ]] and copying it so its located in the same directory as 'blender.exe' and run Blender normally.
 
 ---- ALREADY FIXED
 
@@ -148,9 +148,4 @@ we will have to archive the report until the requested information is given.
 ---- UNSUPPORTED GCN
 
 We only support graphics cards with GCN architecture 2.0 and above). To make sure your GPU is supported checkout this [[ https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units | Wikipedia page. ]]
-
----- 2.8 BUG REPORT
-
-Thank you for the report. Currently we are aware of many issues in 2.8 and actively working to fix them.
-But since replying to reports takes time, we have decided to limit bug reports to crashing bugs only at this point in time.
 
